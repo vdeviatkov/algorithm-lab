@@ -99,7 +99,7 @@ Fundamental algebraic, number-theory, and combinatorial algorithms commonly used
 |---|---|
 | **Comparison-Based** | ✅ [QuickSort](src/algorithms/sorting/quicksort), ✅ [MergeSort](src/algorithms/sorting/mergesort), ✅ [HeapSort](src/algorithms/sorting/heapsort), ✅ [ShellSort](src/algorithms/sorting/shellsort), ✅ [TimSort](src/algorithms/sorting/timsort), ✅ [IntroSort](src/algorithms/sorting/introsort) |
 | **Non-Comparison-Based** | ✅ [Counting Sort](src/algorithms/sorting/counting_sort), ✅ [Radix Sort](src/algorithms/sorting/radix_sort), ✅ [Bucket Sort](src/algorithms/sorting/bucket_sort) |
-| **Searching** | ✅ [Binary Search](src/algorithms/sorting/binary_search), ✅ [Interpolation Search](src/algorithms/sorting/interpolation_search), ✅ [Ternary Search](src/algorithms/sorting/ternary_search), ✅ [Exponential Search](src/algorithms/sorting/exponential_search) |
+| **Searching** | ✅ [Binary Search](src/algorithms/sorting/binary_search), ✅ [Interpolation Search](src/algorithms/sorting/interpolation_search), ✅ [Ternary Search](src/algorithms/sorting/ternary_search), ✅ [Exponential Search](src/algorithms/sorting/exponential_search), ✅ [WQS Binary Search](src/algorithms/sorting/wqs_binary_search) |
 | **Selection** | ✅ [QuickSelect](src/algorithms/sorting/quickselect), ✅ [Median of Medians](src/algorithms/sorting/median_of_medians) |
 
 ---

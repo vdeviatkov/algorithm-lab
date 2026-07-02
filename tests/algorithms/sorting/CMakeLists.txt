@@ -54,6 +54,13 @@ target_link_libraries(test_sorting_ternary_search PRIVATE
 )
 add_test(NAME sorting.ternary_search COMMAND test_sorting_ternary_search)
 
+add_executable(test_sorting_wqs_binary_search wqs_binary_search/test_wqs_binary_search.cpp)
+target_link_libraries(test_sorting_wqs_binary_search PRIVATE
+        algo_sorting_wqs_binary_search
+        GTest::gtest_main
+)
+add_test(NAME sorting.wqs_binary_search COMMAND test_sorting_wqs_binary_search)
+
 add_executable(test_sorting_quickselect quickselect/test_quickselect.cpp)
 target_link_libraries(test_sorting_quickselect PRIVATE
         algo_sorting_quickselect
