@@ -17,3 +17,7 @@ add_test(NAME algebra.mod_inv COMMAND test_mod_inv)
 add_executable(test_sieve sieve/test_sieve.cpp)
 target_link_libraries(test_sieve PRIVATE algo_algebra_sieve GTest::gtest_main)
 add_test(NAME algebra.sieve COMMAND test_sieve)
+
+add_executable(test_mobius mobius/test_mobius.cpp)
+target_link_libraries(test_mobius PRIVATE algo_algebra_mobius GTest::gtest_main)
+add_test(NAME algebra.mobius COMMAND test_mobius)
