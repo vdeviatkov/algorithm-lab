@@ -21,3 +21,7 @@ add_test(NAME algebra.sieve COMMAND test_sieve)
 add_executable(test_mobius mobius/test_mobius.cpp)
 target_link_libraries(test_mobius PRIVATE algo_algebra_mobius GTest::gtest_main)
 add_test(NAME algebra.mobius COMMAND test_mobius)
+
+add_executable(test_totient totient/test_totient.cpp)
+target_link_libraries(test_totient PRIVATE algo_algebra_totient GTest::gtest_main)
+add_test(NAME algebra.totient COMMAND test_totient)

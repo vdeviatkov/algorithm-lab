@@ -59,7 +59,7 @@ Fundamental algebraic, number-theory, and combinatorial algorithms commonly used
 | Prime Factorization | Trial division, Wheel factorization. |
 | Miller–Rabin primality | Probabilistic primality test (deterministic bases for 64-bit). |
 | Pollard's Rho | Practical integer factorization for 64-bit numbers. |
-| Euler's totient (φ) | Count integers coprime to n; multiplicative function. |
+| ✅ [Euler's totient (φ)](src/algebra/totient/README.md) | Count integers coprime to n; multiplicative function. |
 | ✅ [Möbius function / inversion](src/algebra/mobius/README.md) | Used for inclusion–exclusion over divisors. |
 | Discrete logarithm (BSGS) | Baby-step giant-step for solving aˣ ≡ b (mod p). |
 | Number-Theoretic Transform (NTT) | FFT analog in finite fields for fast convolution. |
