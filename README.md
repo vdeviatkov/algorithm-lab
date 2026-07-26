@@ -69,6 +69,7 @@ Fundamental algebraic, number-theory, and combinatorial algorithms commonly used
 | Algorithm | Description |
 |---|---|
 | ✅ [Principle of Inclusion–Exclusion (PIE)](src/math/combinatorics/pie/README.md) | Count via alternating inclusion and exclusion of overlapping sets. |
+| ✅ [Stars and Bars](src/math/combinatorics/stars_and_bars/README.md) | Count distributions of identical objects among distinct groups. |
 | nCr (mod prime) | Binomial coefficients modulo a prime (Lucas / precomputed factorials). |
 | Pascal's Triangle | Tabulated binomial coefficients. |
 | Permutations / Combinations generator | Enumerate or count arrangements. |
