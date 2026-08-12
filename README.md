@@ -124,7 +124,7 @@ Fundamental algebraic, number-theory, and combinatorial algorithms commonly used
 
 | Type | Examples |
 |---|---|
-| **Classic** | Fibonacci (memoized / tabulated), 0/1 Knapsack, Longest Common Subsequence, Edit Distance |
+| **Classic** | ✅ [Kadane's algorithm (maximum subarray)](src/algorithms/dynamic_programming/kadane/README.md), Fibonacci (memoized / tabulated), 0/1 Knapsack, Longest Common Subsequence, Edit Distance |
 | **Pathfinding** | DP on grids, DP on DAGs |
 | **Optimization** | Convex Hull Trick, Divide & Conquer DP, Bitmask DP |
 | **Advanced** | Digit DP, Tree DP, SOS DP (subset convolution), Profile DP |
